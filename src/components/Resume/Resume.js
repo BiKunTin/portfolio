@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/cnguyen_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,14 +42,32 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="TCU IT Consultant"
+              date="April 2019 – Present"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Assists students and faculty members to solve the problems with TCU accounts, Internet, Computer Software + Hardware. (Help 20 students and faculty members per day, more in the summer).",
+                "Platforms/Technology: Window, Mac, Linux, ChromeOS/NiceInContact, Bomgar, Cherwell",
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            <Resumecontent
+              title="FPT - Software Engineer Intern"
+              date="May 2017 – August 2017"
+              content={[
+                "Developed Sound audio and Bluetooth part for a new car generation project in Czech.",
+                "Created a tool to analyze the data from companywebsite and generate a report from those analytical data for the developer teams in Vietnam and Korea.",
+                "Language: Java, C, VBS, VBA",
+              ]}
+            />
+            <h3 className="resume-title">Education</h3>
+            <Resumecontent
+              title="BS in Computer Science & Math in Texas Christian University"
+              date="Graduation: December 2021"
+              content={[`GPA: 3.67/4.0`]}
+            />
+            
+          </Col>
+          <Col md={6} className="resume-right">
+          <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
               title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
               content={[
@@ -61,24 +79,6 @@ function Resume() {
               content={[
                 "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
-            />
-          </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
-            <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
-            />
-            <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
-              content={["Precentage: 88%"]}
-            />
-            <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
             />
             <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
