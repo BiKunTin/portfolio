@@ -1,33 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import axios from "axios";
 import pdf from "../../Assets/cnguyen_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
-
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-        upadteSpojRank(res.data.message[0].spojRank);
-        upadteHackerank(res.data.message[1].hackerrank);
-        upadteCgpa(res.data.message[2].cgpa);
-        upadateSem(res.data.message[3].sem);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
-
   return (
     <Container fluid className="resume-section">
       <Particle />
@@ -64,37 +43,50 @@ function Resume() {
               date="Graduation: December 2021"
               content={[`GPA: 3.67/4.0`]}
             />
-            
           </Col>
           <Col md={6} className="resume-right">
-          <h3 className="resume-title">Extracurricular Activities</h3>
+            <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Research Assistant - Cyber Network and Security"
+              date="June 2018 – December 2019"
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Assisted about 20 Computer Science students in labs and in-class materials, supported creating lab lectures for the class and created 2 new labs for professor to teach in class (WPS and WPA attack).",
+                "Platforms/Technology: Fedora, Ubuntu/Reaver, Pixiewps, Aircrack,WireShark",
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Research Assistant - AI for Reversi"
+              date="January 2020 – May 2020"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "Created a GUI to play human vs human",
+                "Developed an algorithm bot using greedy, minimax alpha-beta pruning to train and tune a deep artificial neural network of self-learning bot (trained 10000 games, achieved 62% winning rate over 500 games against human players )",
+                "Language: Java",
               ]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            {/* <Resumecontent
+              title="Research Assistant - AI for Tic Tac Check"
+              content={[
+                "Created a GUI to play human vs human",
+                "Developed an algorithm bot using greedy, minimax alpha-beta pruning to train and tune a deep artificial neural network of self-learning bot",
+                "Language: Python",
+              ]}
+            /> */}
+            <h3 className="resume-title">Honors and Awards</h3>
             <Resumecontent
               title=""
               content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                `Awarded Bronze Medal in ACM ICPC South Central USA Regional Contest (2019) - ranked 1st/19 total Undergraduate school teams, ranked 12th/61 total teams)`,
+                "Awarded 1st price in Hackathon UTA MLH chatbot challenge (2018)",
+                "Ranked 27th/71 total teams in ACM ICPC South Central USA Regional Contest(2018)",
+                "Upsilon Pi Epsilon (2019), TCU ACM Team Leader (2018+2019)",
               ]}
             />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-          <AiOutlineDownload />&nbsp;Download CV
+            <AiOutlineDownload />
+            &nbsp;Download CV
           </Button>
         </Row>
       </Container>

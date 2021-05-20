@@ -1,17 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
-
+import covid from "../../Assets/Projects/covidtracker.png";
+import superfrog from "../../Assets/Projects/superfrog.png";
+import reversi from "../../Assets/Projects/reversi.png";
+import cosmo from "../../Assets/Projects/cosmo.png";
+import tictaccheck from "../../Assets/Projects/tictaccheck.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -26,74 +22,64 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={covid}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Covid Tracker"
+              description="Created a user-friendliness and reliability Covid Tracker API to provide accurate and timely information"
+              description1="Created 3 different versions of FrontEnd API using HTML, Vue, and React to make a general FrontEnd API for public use"
+              description2="Created BackEnd API using Spring Boot, Java, and MongoDB then ran it on AWS server"
+              description3="Language/Technology used: Java, Javascript, Python, HTMl, CSS, Vue, Vuetify, React, Material-UI, Spring Boot, Apache tomcat, D3, Leaflet, MongoDB, AWS"
+              link1="http://covidtracker.games:8080/"
+              link="https://github.com/covidtrackersenior/TCUCovidTracker"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={superfrog}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="SuperFrog Scheduler"
+              description="Created a user-friendliness and reliability Scheduler API help manage and schedule appointments/events"
+              description1="Created FrontEnd API using BootStrap and Thymeleaf"
+              description2="Created BackEnd API using Spring Boot, Java, and MySQL then ran it on Heroku server"
+              description3="Language/Technology used: Java, Javascript, HTMl, CSS, Thymeleaf, Bootstrap, Spring Boot, H2-Console, MySQL, Heroku"
+              link1="https://superfrogscheduler.herokuapp.com/"
+              link="https://github.com/rdurb/superfrog-scheduler"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={reversi}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="AI for Reversi"
+              description="Created a GUI to play human vs human"
+              description1="Developed an algorithm bot using greedy, minimax alpha-beta pruning to train and tune a deep artificial neural network of self-learning bot (trained 10000 games, achieved 62% winning rate over 500 games against human players )"
+              description2="Language: Java"
+              link="https://github.com/BiKunTin/reversi"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={tictaccheck}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="AI for Tic Tac Check"
+              description="Created a GUI to play human vs human"
+              description1="Developed an algorithm bot using greedy, minimax alpha-beta pruning to train and tune a deep artificial neural network of self-learning bot"
+              description2="Language: Python"
+              link="https://github.com/BiKunTin/tictacheck"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={cosmo}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col>
-        </Row>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
-        </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
-        <Row style={{ justifyContent: "center" }}>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
-            />
-          </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
+              title="Cosmo SDK"
+              description="build a Starport (Cosmos SDK) application to build a virtual wallet as a blockchain that allows users to communicate and transfer currency."
+              description2="Language/Technology used: Starport, Nodejs, Protoc, Go, Vue, Bootstrap"
+              link="https://github.com/BiKunTin/cosmo"
             />
           </Col>
         </Row>
