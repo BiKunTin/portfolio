@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.88b6a5fb.chunk.css",
+    "main.js": "/portfolio/static/js/main.7290fad3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7290fad3.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.72bb7ce8.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.72bb7ce8.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b182c2cd.chunk.js": "/portfolio/static/js/2.b182c2cd.chunk.js",
+    "static/js/2.b182c2cd.chunk.js.map": "/portfolio/static/js/2.b182c2cd.chunk.js.map",
+    "static/js/3.7adff6ac.chunk.js": "/portfolio/static/js/3.7adff6ac.chunk.js",
+    "static/js/3.7adff6ac.chunk.js.map": "/portfolio/static/js/3.7adff6ac.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.88b6a5fb.chunk.css.map": "/portfolio/static/css/main.88b6a5fb.chunk.css.map",
+    "static/js/2.b182c2cd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b182c2cd.chunk.js.LICENSE.txt",
+    "static/media/Cuong_Headshot.2ef90e6a.png": "/portfolio/static/media/Cuong_Headshot.2ef90e6a.png",
+    "static/media/about.aee0f771.png": "/portfolio/static/media/about.aee0f771.png",
+    "static/media/cnguyen_resume.86c6bcd2.pdf": "/portfolio/static/media/cnguyen_resume.86c6bcd2.pdf",
+    "static/media/cosmo.2ee017a3.png": "/portfolio/static/media/cosmo.2ee017a3.png",
+    "static/media/covidtracker.58d41304.png": "/portfolio/static/media/covidtracker.58d41304.png",
+    "static/media/find-me.c34594d2.png": "/portfolio/static/media/find-me.c34594d2.png",
+    "static/media/home_main.13de6482.png": "/portfolio/static/media/home_main.13de6482.png",
+    "static/media/style.css": "/portfolio/static/media/pre.d4812f51.svg",
+    "static/media/reversi.e883fb02.png": "/portfolio/static/media/reversi.e883fb02.png",
+    "static/media/superfrog.ba03e964.png": "/portfolio/static/media/superfrog.ba03e964.png",
+    "static/media/tictaccheck.44fd18c2.jpeg": "/portfolio/static/media/tictaccheck.44fd18c2.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72bb7ce8.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b182c2cd.chunk.js",
+    "static/css/main.88b6a5fb.chunk.css",
+    "static/js/main.7290fad3.chunk.js"
+  ]
+}
