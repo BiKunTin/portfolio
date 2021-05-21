@@ -8,13 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Cuong Nguyen </span> and
-            I am a{" "}
-            <span className="purple">
-              Senior Computer Science + Math Major{" "}
-            </span>
-            at <span className="purple">Texas Christian University</span>. I'm
-            an aspiring Software Engineering and IT Consultant.
+             I'm an aspiring Software Engineering and IT Consultant.
             <br />
             <br />
             Area of interest: Machine Learning, Algorithm, Mobile App, Data

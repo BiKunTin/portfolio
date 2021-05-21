@@ -13,11 +13,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Hello my name is Cuong Nguyen, but you can call me Kelvin Nguyen. I'm an aspiring Software Engineering and IT Consultant and I fell in love with coding competition and programming.
+              Hello my name is Cuong Nguyen, but you can call me Kelvin Nguyen.
+              I'm currently a
+              <span className="purple">
+                Senior Computer Science + Math Major
+              </span>
+              at <span className="purple">Texas Christian University</span> and
+              I fell in love with coding competition and programming.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, Java, Javascript and Python. </b>
               </i>
               <br />
               <br />
