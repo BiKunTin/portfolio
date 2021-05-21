@@ -14,11 +14,11 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Hello my name is Cuong Nguyen, but you can call me Kelvin Nguyen.
-              I'm currently a
+              I'm currently a{" "}
               <span className="purple">
-                Senior Computer Science + Math Major
+                Senior Computer Science + Math Major{" "}
               </span>
-              at <span className="purple">Texas Christian University</span> and
+              at <span className="purple">Texas Christian University</span>. and
               I fell in love with coding competition and programming.
               <br />
               <br />I am fluent in classics like

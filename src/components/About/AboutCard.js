@@ -45,7 +45,7 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Language: C, C++, Python, Java, JavaScript, VBS,
-              VBA, Pascal, HTML, CSS, SQL, Lisp, Scala
+              VBA, Pascal, HTML, CSS, SQL, Go
             </li>
             <li className="about-activity">
               <ImPointRight /> Software/APIs: OpenCV, Git/Github, Aircrack,
