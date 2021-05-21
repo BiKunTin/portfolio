@@ -39,11 +39,6 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>My Skills/ Expertise:</p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Awarded Bronze Medal in ACM ICPC South Central
-              USA Regional Contest (2019) - ranked 1st/19 total Undergraduate
-              school teams, ranked 12th/61 total teams, Language: C, C++)
-            </li>
-            <li className="about-activity">
               <ImPointRight /> Language: C, C++, Python, Java, JavaScript, VBS,
               VBA, Pascal, HTML, CSS, SQL, Go
             </li>
