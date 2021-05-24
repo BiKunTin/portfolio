@@ -19,7 +19,7 @@ function Home2() {
                 Senior Computer Science + Math Major{" "}
               </span>
               at <span className="purple">Texas Christian University</span>. and
-              I fell in love with coding competition and programming.
+              I fall in love with coding competition and programming.
               <br />
               <br />I am fluent in classics like
               <i>
