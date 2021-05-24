@@ -18,7 +18,7 @@ function Home2() {
               <span className="purple">
                 Senior Computer Science + Math Major{" "}
               </span>
-              at <span className="purple">Texas Christian University</span>. and
+              at <span className="purple">Texas Christian University</span> and
               I fall in love with coding competition and programming.
               <br />
               <br />I am fluent in classics like
