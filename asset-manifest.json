@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b10ce835.chunk.css",
-    "main.js": "/static/js/main.2a27ed19.chunk.js",
-    "main.js.map": "/static/js/main.2a27ed19.chunk.js.map",
+    "main.js": "/static/js/main.0bfaafbf.chunk.js",
+    "main.js.map": "/static/js/main.0bfaafbf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c225038c.js",
     "runtime-main.js.map": "/static/js/runtime-main.c225038c.js.map",
     "static/css/2.92200efa.chunk.css": "/static/css/2.92200efa.chunk.css",
@@ -16,7 +16,7 @@
     "static/js/2.eb4519f3.chunk.js.LICENSE.txt": "/static/js/2.eb4519f3.chunk.js.LICENSE.txt",
     "static/media/Cuong_Headshot.2ef90e6a.png": "/static/media/Cuong_Headshot.2ef90e6a.png",
     "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
-    "static/media/cnguyen_resume.a83a7801.pdf": "/static/media/cnguyen_resume.a83a7801.pdf",
+    "static/media/cnguyen_resume.1f90c530.pdf": "/static/media/cnguyen_resume.1f90c530.pdf",
     "static/media/cosmo.2ee017a3.png": "/static/media/cosmo.2ee017a3.png",
     "static/media/covidtracker.58d41304.png": "/static/media/covidtracker.58d41304.png",
     "static/media/find-me.c34594d2.png": "/static/media/find-me.c34594d2.png",
@@ -31,6 +31,6 @@
     "static/css/2.92200efa.chunk.css",
     "static/js/2.eb4519f3.chunk.js",
     "static/css/main.b10ce835.chunk.css",
-    "static/js/main.2a27ed19.chunk.js"
+    "static/js/main.0bfaafbf.chunk.js"
   ]
 }
