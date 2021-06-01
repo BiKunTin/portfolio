@@ -30,7 +30,7 @@ function Projects() {
               description2="Created BackEnd API using Spring Boot, Java, and MongoDB then ran it on AWS server"
               description3="Language/Technology used: Java, Javascript, Python, HTMl, CSS, Vue, Vuetify, React, Material-UI, Spring Boot, Apache tomcat, D3, Leaflet, MongoDB, AWS"
               link1="http://covidtracker.games:8080/"
-              link="https://github.com/covidtrackersenior/TCUCovidTracker"
+              link="https://github.com/BiKunTin/covidtracker"
             />
           </Col>
 
